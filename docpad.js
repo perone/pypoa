@@ -33,7 +33,7 @@ module.exports = {
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
+      url: "http://perone.github.io/pypoa/",
       googleanalytics: "UA-33600000-0"
     },
 
@@ -53,7 +53,7 @@ module.exports = {
     // Labels which you can translate to other languages
     labels: {
       about: "Sobre",
-      location: "Lugar",
+      location: "Local",
       speakers: "Palestrantes",
       schedule: "Programação",
       sponsors: "Patrocinadores",
