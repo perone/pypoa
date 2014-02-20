@@ -32,8 +32,8 @@ module.exports = {
 
     // Site info
     site: {
-      theme: "yellow-swan",
-      url: "http://perone.github.io/pypoa/",
+      theme: "pypoa",
+      url: "http://www.pypoa.org",
       googleanalytics: "UA-33600000-0"
     },
 
