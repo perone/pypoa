@@ -11,7 +11,7 @@ module.exports = {
       description: "1o Python Porto Alegre",
       date: "Junho 7",
       // If your event is free, just comment this line
-      price: "R$ 10",
+      // price: "R$ 10",
       venue: "Falta Definir",
       address: "Av. Carlos Gomes, 1000",
       city: "Porto Alegre",
@@ -26,9 +26,9 @@ module.exports = {
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    //forkButton: {
+    //    repository: "https://github.com/braziljs/conf-boilerplate"
+    //},
 
     // Site info
     site: {
@@ -46,8 +46,8 @@ module.exports = {
       'speakers',
       'schedule',
       'sponsors',
-      'partners'
-      // 'contact'
+      'partners',
+      'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -64,25 +64,29 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
+        name: "Recepção",
         time: "9h00"
       },
       {
-        name: "Christian S. Perone",
-        photo: "http://www.gravatar.com/avatar/7735d49d1b04ba5e18bbe107ad756b0d?s=200",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
+        name: "Abertura",
+        time: "9h30"
+      },
+      {
+        name: "Maurício de Abreu Antunes",
+        photo: "http://www.gravatar.com/avatar/851c5fc71f5542c0a61993b3b0e20ac5?s=200",
+        bio: "Maurício é um desenvolvedor etc etc etc.",
+        company: "PyTchê",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "https://twitter.com/maugzoide",
+          text: "@maugzoide"
         },
         presentation: {
-          title: "Machine Learning com Python",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "Introdução ao framework Django",
+          description: "Palestra de introdução ao framework web Django.",
           time: "10h00"
         }
       },
-      {
+      { 
         name: "Bill Gates",
         photo: "themes/yellow-swan/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
