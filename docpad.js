@@ -75,7 +75,7 @@ module.exports = {
         name: "Maurício de Abreu Antunes",
         photo: "http://www.gravatar.com/avatar/851c5fc71f5542c0a61993b3b0e20ac5?s=200",
         bio: "Maurício é um desenvolvedor etc etc etc.",
-        company: "PyTchê",
+        company: "Azion Technologies",
         link: {
           href: "https://twitter.com/maugzoide",
           text: "@maugzoide"
@@ -90,7 +90,7 @@ module.exports = {
         name: "Leonardo Korndörfer",
         photo: "http://www.gravatar.com/avatar/6c3887b22478ea33fffa3bad4e8b1625?s=200",
         bio: "Leonardo é um desenvolvedor etc etc etc.",
-        company: "PyTchê",
+        company: "Hewlett-Packard",
         link: {
           href: "https://twitter.com/leonardork",
           text: "@leonardork"
@@ -136,18 +136,18 @@ module.exports = {
         }
       },
       {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        name: "Christian S. Perone",
+        photo: "http://www.gravatar.com/avatar/7735d49d1b04ba5e18bbe107ad756b0d?s=200",
+        bio: "Christian é um desenvolvedor etc etc etc.",
+        company: "Hewlett-Packard",
         link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
+          href: "https://github.com/perone",
+          text: "@perone"
         },
         presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
+          title: "Machine Learning com Python",
+          description: "Palestra de introdução à Machine Learning usando Python e Scikit-Learn (sklearn).",
+          time: "14h50"
         }
       }
     ],
