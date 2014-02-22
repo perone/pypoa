@@ -87,18 +87,18 @@ module.exports = {
         }
       },
       { 
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Leonardo Korndörfer",
+        photo: "http://www.gravatar.com/avatar/6c3887b22478ea33fffa3bad4e8b1625?s=200",
+        bio: "Leonardo é um desenvolvedor etc etc etc.",
+        company: "PyTchê",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "https://twitter.com/leonardork",
+          text: "@leonardork"
         },
         presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          title: "Celery",
+          description: "Palestra sobre o Celery, um framework para filas de tarefas.",
+          time: "10h50"
         }
       },
       {
