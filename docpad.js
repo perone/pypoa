@@ -166,9 +166,29 @@ module.exports = {
         presentation: {
           title: "Deploy de aplicação Python no OpenShift",
           description: "Uma palestra sobre o deploy de aplicações Python no OpenShift.",
-          time: "14h00"
+          time: "16h00"
         }
       },
+      {
+        name: "Paulo Zucco",
+        photo: "http://www.gravatar.com/avatar/3083ce3ffb8786c2fdbde80970b7998b?s=200",
+        bio: "Paulo é um desenvolvedor etc etc etc.",
+        company: "CWI",
+        link: {
+          href: "https://plus.google.com/102385293155320837132",
+          text: "Google+"
+        },
+        presentation: {
+          title: "PyGame, criando jogos em Python",
+          description: "Uma palestra sobre a criação de jogos em Python.",
+          time: "16h50"
+        }
+      },
+      {
+        name: "Encerramento",
+        time: "17h40"
+      },
+
     ],
 
     // List of Sponsors
