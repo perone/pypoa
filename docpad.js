@@ -102,22 +102,18 @@ module.exports = {
         }
       },
       {
-        name: "Lunch",
-        time: "12h00"
-      },
-      {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
+        name: "Bruno Peron",
+        photo: "http://www.gravatar.com/avatar/2197b55a1488e4fba03c1c6d3d72f155?s=200",
+        bio: "Bruno é um desenvolvedor etc etc etc.",
+        company: "Hewlett-Packard",
         link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
+          href: "https://plus.google.com/u/0/102688975215539505853",
+          text: "Google+"
         },
         presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
+          title: "Métodos Mágicos",
+          description: "Palestra introdutória sobre métodos mágicos (magic methods).",
+          time: "11h40"
         }
       },
       {
