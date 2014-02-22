@@ -117,37 +117,22 @@ module.exports = {
         }
       },
       {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        name: "Almoço",
+        time: "12h20"
+      },
+      {
+        name: "Leandro Nunes",
+        photo: "http://www.gravatar.com/avatar/9b5f5241e0d3348ef223bcc91f681d5e?s=200",
+        bio: "Lenadro é um desenvolvedor etc etc etc.",
+        company: "Hewlett-Packard",
         link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
+          href: "https://twitter.com/nunesleandro",
+          text: "@nunesleandro"
         },
         presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "Web stack com: Nginx + Chaussette + Circus + Flask",
+          description: "Uma palestra sobre um web stack completo utilizando nginx, chaussette, circus e flask.",
           time: "14h00"
-        }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
         }
       },
       {
