@@ -123,7 +123,7 @@ module.exports = {
       {
         name: "Leandro Nunes",
         photo: "http://www.gravatar.com/avatar/9b5f5241e0d3348ef223bcc91f681d5e?s=200",
-        bio: "Lenadro é um desenvolvedor etc etc etc.",
+        bio: "Leandro é um desenvolvedor etc etc etc.",
         company: "Hewlett-Packard",
         link: {
           href: "https://twitter.com/nunesleandro",
@@ -149,7 +149,26 @@ module.exports = {
           description: "Palestra de introdução à Machine Learning usando Python e Scikit-Learn (sklearn).",
           time: "14h50"
         }
-      }
+      },
+      {
+        name: "Coffee Break",
+        time: "15h40"
+      },
+      {
+        name: "Sérgio Berlotto",
+        photo: "http://www.gravatar.com/avatar/208e4a03a5e5ac5dda83c6b685d399f5?s=200",
+        bio: "Sérgio é um desenvolvedor etc etc etc.",
+        company: "Gabinete Digital",
+        link: {
+          href: "https://twitter.com/berlottocdd",
+          text: "@berlottocdd"
+        },
+        presentation: {
+          title: "Deploy de aplicação Python no OpenShift",
+          description: "Uma palestra sobre o deploy de aplicações Python no OpenShift.",
+          time: "14h00"
+        }
+      },
     ],
 
     // List of Sponsors
