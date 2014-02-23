@@ -124,14 +124,14 @@ module.exports = {
         name: "Leandro Nunes",
         photo: "http://www.gravatar.com/avatar/9b5f5241e0d3348ef223bcc91f681d5e?s=200",
         bio: "Leandro é um desenvolvedor etc etc etc.",
-        company: "Hewlett-Packard",
+        company: "Codefi.sh",
         link: {
           href: "https://twitter.com/nunesleandro",
           text: "@nunesleandro"
         },
         presentation: {
-          title: "Web stack com: Nginx + Chaussette + Circus + Flask",
-          description: "Uma palestra sobre um web stack completo utilizando nginx, chaussette, circus e flask.",
+          title: "Web stack com Nginx + Chaussette + Circus + Flask",
+          description: "Essa palestra apresenta a configuração de um stack completo para deploy de aplicações WSGI usando Nginx, Chaussette e Circus.",
           time: "14h00"
         }
       },
