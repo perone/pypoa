@@ -139,7 +139,7 @@ module.exports = {
         name: "Christian S. Perone",
         photo: "http://www.gravatar.com/avatar/7735d49d1b04ba5e18bbe107ad756b0d?s=200",
         bio: "Christian é um desenvolvedor etc etc etc.",
-        company: "Hewlett-Packard",
+        company: "Codefi.sh",
         link: {
           href: "https://github.com/perone",
           text: "@perone"
