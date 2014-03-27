@@ -9,11 +9,11 @@ module.exports = {
     conf: {
       name: "PyPOA",
       description: "1o Python Porto Alegre",
-      date: "Junho 7",
+      date: "7 de Junho",
       // If your event is free, just comment this line
       // price: "R$ 10",
-      venue: "Falta Definir",
-      address: "Av. Carlos Gomes, 1000",
+      venue: "FTEC",
+      address: "Av. Assis Brasil, 7765",
       city: "Porto Alegre",
       state: "Rio Grande do Sul"
     },
@@ -45,9 +45,9 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      'sponsors',
-      'partners',
-      'contact'
+      'sponsors'//,
+      //'partners' //,
+      //'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -56,9 +56,9 @@ module.exports = {
       location: "Local",
       speakers: "Palestrantes",
       schedule: "Programação",
-      sponsors: "Patrocinadores",
-      partners: "Parceiros",
-      contact: "Contato"
+      sponsors: "Patrocinadores"//,
+      //partners: "Parceiros"//,
+      //contact: "Contato"
     },
 
     // The entire schedule
@@ -87,38 +87,38 @@ module.exports = {
         }
       },
       { 
-        name: "Leonardo Korndörfer",
+        name: "Leonardo Korndorfer",
         photo: "http://www.gravatar.com/avatar/6c3887b22478ea33fffa3bad4e8b1625?s=200",
         bio: "Leonardo é um desenvolvedor etc etc etc.",
-        company: "Hewlett-Packard",
+        company: "",
         link: {
-          href: "https://twitter.com/leonardork",
-          text: "@leonardork"
+          href: "https://leok.me",
+          text: "leok.me"
         },
         presentation: {
-          title: "Celery",
-          description: "Palestra sobre o Celery, um framework para filas de tarefas.",
+          title: "Python + Celery",
+          description: "Em breve.",
           time: "10h50"
         }
       },
       {
-        name: "Bruno Peron",
-        photo: "http://www.gravatar.com/avatar/2197b55a1488e4fba03c1c6d3d72f155?s=200",
-        bio: "Bruno é um desenvolvedor etc etc etc.",
-        company: "Hewlett-Packard",
+        name: "Palestrante 3",
+        photo: "http://www.gravatar.com/avatar/3083ce3ffb8786c2fdbde80970b7998b?s=200",
+        bio: "Palestrante é um desenvolvedor etc etc etc.",
+        company: "PyPOA",
         link: {
-          href: "https://plus.google.com/u/0/102688975215539505853",
+          href: "https://plus.google.com/102385293155320837132",
           text: "Google+"
         },
         presentation: {
-          title: "Métodos Mágicos",
-          description: "Palestra introdutória sobre métodos mágicos (magic methods).",
+          title: "Palestra 3",
+          description: "Uma palestra sobre 3.",
           time: "11h40"
         }
       },
       {
         name: "Almoço",
-        time: "12h20"
+        time: "12h00"
       },
       {
         name: "Leandro Nunes",
@@ -147,6 +147,21 @@ module.exports = {
         presentation: {
           title: "Machine Learning com Python",
           description: "Palestra de introdução à Machine Learning usando Python e Scikit-Learn (sklearn).",
+          time: "14h20"
+        }
+      },
+      {
+        name: "Relsi Maron",
+        photo: "https://www.gravatar.com/avatar/31539ba4707f0bfb36987c0299bbf800?s=200",
+        bio: "Sócio fundador da Startup CodeFreelas. Trabalha com desenvolvimento web há 5 anos. Programador autodidata, ativista de software livre e membro do Pytchê.",
+        company: "CodeFreelas.com",
+        link: {
+          href: "http://facebook.com/relsi",
+          text: "facebook.com/relsi"
+        },
+        presentation: {
+          title: "Transformando ideias em realidade com web2py",
+          description: "Um dos maiores obstáculos para empreendedores não técnicos é transformar a sua ideia em um MVP de qualidade, em pouco tempo e com baixo investimento. Mas esse obstáculo pode ser vencido facilmente com o framework python para desenvolvimento web, o Web2py, que possibilita uma rápida prototipação, e a implementação de ferramentas funcionais seguras e escaláveis com uma curva de desenvolvimento muito pequena.  ",
           time: "14h50"
         }
       },
@@ -155,38 +170,53 @@ module.exports = {
         time: "15h40"
       },
       {
-        name: "Sérgio Berlotto",
+        name: "Sérgio H. Berlotto Jr",
         photo: "http://www.gravatar.com/avatar/208e4a03a5e5ac5dda83c6b685d399f5?s=200",
-        bio: "Sérgio é um desenvolvedor etc etc etc.",
+        bio: "Usuário e incentivador Linux, programador desde 1999, atualmente desenvolve com Python e Wordpress no site do gabinetedigital.rs.gov.br do governo do estado.",
         company: "Gabinete Digital",
         link: {
-          href: "https://twitter.com/berlottocdd",
-          text: "@berlottocdd"
+          href: "http://github.com/berlotto",
+          text: "github.com/berlotto"
         },
         presentation: {
           title: "Deploy de aplicação Python no OpenShift",
-          description: "Uma palestra sobre o deploy de aplicações Python no OpenShift.",
+          description: "Aprender como utilizar e como fazer deploy de uma aplicação em Python no ambiente open-source OpenShift, criado pela Red Hat. Saiba como criar sua aplicação, como utilizar o git com ela, como guardar as versões do seu deploy, e algumas outras funções.",
           time: "16h00"
         }
       },
       {
-        name: "Paulo Zucco",
+        name: "Palestrante 5",
         photo: "http://www.gravatar.com/avatar/3083ce3ffb8786c2fdbde80970b7998b?s=200",
-        bio: "Paulo é um desenvolvedor etc etc etc.",
-        company: "CWI",
+        bio: "Palestrante é um desenvolvedor etc etc etc.",
+        company: "PyPOA",
         link: {
           href: "https://plus.google.com/102385293155320837132",
           text: "Google+"
         },
         presentation: {
-          title: "PyGame, criando jogos em Python",
-          description: "Uma palestra sobre a criação de jogos em Python.",
+          title: "Fabric ??",
+          description: "Uma palestra sobre Fabric.",
+          time: "16h20"
+        }
+      },
+      {
+        name: "Daniel Bastos",
+        photo: "http://www.gravatar.com/avatar/7ec7f2e54e1a0f8eadb7e4a23a78a56e?s=200",
+        bio: "Desenvolvedor web por paixão, amante do software livre e acadêmico de longa data.",
+        company: "Freelancer",
+        link: {
+          href: "http://daniellbastos.com.br/",
+          text: "daniellbastos.com.br"
+        },
+        presentation: {
+          title: "South, o básico para manter uma \"vida saudável\"",
+          description: "Uma breve apresentação sobre a biblioteca South, como utiliza-la em projetos django para manter a evolução constantes dos seus models (apps) de uma forma simples e assim manter uma \"vida saudável\"",
           time: "16h50"
         }
       },
       {
         name: "Encerramento",
-        time: "17h40"
+        time: "17h30"
       },
 
     ],
@@ -201,6 +231,7 @@ module.exports = {
     ],
 
     // List of Partners
+    /*
     partners: [
       {
         name: "BrazilJS",
@@ -208,6 +239,7 @@ module.exports = {
         url: "http://braziljs.org"
       }
     ],
+    */
 
     // Theme path
     getTheme: function() {
