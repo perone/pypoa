@@ -225,7 +225,7 @@ module.exports = {
       {
         name: "FTEC",
         logo: "themes/pypoa/img/logo_ftec.jpg",
-        url: "http://eventick.com.br"
+        url: "http://www.ftec.com.br/"
       },
     ],
 
