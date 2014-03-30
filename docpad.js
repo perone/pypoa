@@ -45,8 +45,8 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      'sponsors'//,
-      //'partners' //,
+      'sponsors',
+      'partners',
       //'contact'
     ],
 
@@ -56,8 +56,8 @@ module.exports = {
       location: "Local",
       speakers: "Palestrantes",
       schedule: "Programação",
-      sponsors: "Patrocinadores"//,
-      //partners: "Parceiros"//,
+      sponsors: "Patrocinadores",
+      partners: "Parceiros",
       //contact: "Contato"
     },
 
@@ -72,17 +72,17 @@ module.exports = {
         time: "9h30"
       },
       {
-        name: "Maurício de Abreu Antunes",
+        name: "Mauricio Abreu Antunes",
         photo: "http://www.gravatar.com/avatar/851c5fc71f5542c0a61993b3b0e20ac5?s=200",
-        bio: "Maurício é um desenvolvedor etc etc etc.",
-        company: "Azion Technologies",
+        bio: "Programador Python focado no framework Django desenvolvendo soluções na Azion Technologies.",
+        company: "Programador Python at Azion Technologies (http://www.azion.com.br/)",
         link: {
-          href: "https://twitter.com/maugzoide",
-          text: "@maugzoide"
+          href: "https://github.com/mauricioabreu",
+          text: "@mauricioabreu"
         },
         presentation: {
-          title: "Introdução ao framework Django",
-          description: "Palestra de introdução ao framework web Django.",
+          title: "Introdução ao Django framework",
+          description: "Passando por conceitos básicos de um framework até o entendimento básico de modelos de dados, templates e views utilizando Django.",
           time: "10h00"
         }
       },
@@ -102,17 +102,17 @@ module.exports = {
         }
       },
       {
-        name: "Palestrante 3",
-        photo: "http://www.gravatar.com/avatar/3083ce3ffb8786c2fdbde80970b7998b?s=200",
-        bio: "Palestrante é um desenvolvedor etc etc etc.",
-        company: "PyPOA",
+        name: "Matheus Carvalho",
+        photo: "http://www.gravatar.com/avatar/c33a2a82b450a855b19da3200b4a5ad8?s=200",
+        bio: "TSPI - Tecnologia em Sistemas para Internet. Certificações Linux",
+        company: "Área 31 - Hackerspace",
         link: {
-          href: "https://plus.google.com/102385293155320837132",
-          text: "Google+"
+          href: "https://www.facebook.com/go.matheus",
+          text: "Facebook"
         },
         presentation: {
-          title: "Palestra 3",
-          description: "Uma palestra sobre 3.",
+          title: "Engenharia Social e Técnicas de Invasão com S.E.T",
+          description: "Engenharia Social - Conceito e Como Usa-la na Prática, Técnicas de Invasão e Roubos de Credencial com o uso da Ferramenta S.E.T, Como se proteger.",
           time: "11h40"
         }
       },
@@ -138,7 +138,7 @@ module.exports = {
       {
         name: "Christian S. Perone",
         photo: "http://www.gravatar.com/avatar/7735d49d1b04ba5e18bbe107ad756b0d?s=200",
-        bio: "Christian é um desenvolvedor etc etc etc.",
+        bio: "Christian é desenvolvedor Python e também mantenedor open-source.",
         company: "Codefi.sh",
         link: {
           href: "https://github.com/perone",
@@ -153,7 +153,7 @@ module.exports = {
       {
         name: "Relsi Maron",
         photo: "https://www.gravatar.com/avatar/31539ba4707f0bfb36987c0299bbf800?s=200",
-        bio: "Sócio fundador da Startup CodeFreelas. Trabalha com desenvolvimento web há 5 anos. Programador autodidata, ativista de software livre e membro do Pytchê.",
+        bio: "Sócio fundador e CTO da Startup CodeFreelas. Trabalha com desenvolvimento web há 5 anos. Programador autodidata, ativista de software livre e membro do PyTchê.",
         company: "CodeFreelas.com",
         link: {
           href: "http://facebook.com/relsi",
@@ -218,7 +218,6 @@ module.exports = {
         name: "Encerramento",
         time: "17h30"
       },
-
     ],
 
     // List of Sponsors
@@ -227,11 +226,10 @@ module.exports = {
         name: "Eventick",
         logo: "themes/yellow-swan/img/sponsor.png",
         url: "http://eventick.com.br"
-      }
+      },
     ],
 
     // List of Partners
-    /*
     partners: [
       {
         name: "BrazilJS",
@@ -239,7 +237,7 @@ module.exports = {
         url: "http://braziljs.org"
       }
     ],
-    */
+    
 
     // Theme path
     getTheme: function() {
