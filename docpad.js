@@ -46,7 +46,7 @@ module.exports = {
       'speakers',
       'schedule',
       'sponsors',
-      'partners',
+      //'partners',
       //'contact'
     ],
 
@@ -57,7 +57,7 @@ module.exports = {
       speakers: "Palestrantes",
       schedule: "Programação",
       sponsors: "Patrocinadores",
-      partners: "Parceiros",
+      //partners: "Parceiros",
       //contact: "Contato"
     },
 
@@ -223,8 +223,8 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
+        name: "FTEC",
+        logo: "themes/pypoa/img/logo_ftec.jpg",
         url: "http://eventick.com.br"
       },
     ],
