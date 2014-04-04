@@ -20,10 +20,10 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    callToAction: {
-        text: "Registre-se agora!",
-        link: "http://eventick.com.br"
-    },
+    //callToAction: {
+    //    text: "Registre-se agora!",
+    //    link: "http://eventick.com.br"
+    //},
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     //forkButton: {
@@ -34,7 +34,7 @@ module.exports = {
     site: {
       theme: "pypoa",
       url: "http://www.pypoa.org",
-      googleanalytics: "UA-33600000-0"
+      googleanalytics: "UA-4797390-4"
     },
 
     // Active sections on the website
@@ -89,7 +89,7 @@ module.exports = {
       { 
         name: "Leonardo Korndorfer",
         photo: "http://www.gravatar.com/avatar/6c3887b22478ea33fffa3bad4e8b1625?s=200",
-        bio: "Leonardo é um desenvolvedor etc etc etc.",
+        bio: "",
         company: "",
         link: {
           href: "https://leok.me",
@@ -123,7 +123,7 @@ module.exports = {
       {
         name: "Leandro Nunes",
         photo: "http://www.gravatar.com/avatar/9b5f5241e0d3348ef223bcc91f681d5e?s=200",
-        bio: "Leandro é um desenvolvedor etc etc etc.",
+        bio: "Leandro é desenvolvedor de software e palestrante em eventos de software livre.",
         company: "Codefi.sh",
         link: {
           href: "https://twitter.com/nunesleandro",
@@ -185,17 +185,17 @@ module.exports = {
         }
       },
       {
-        name: "Palestrante 5",
-        photo: "http://www.gravatar.com/avatar/3083ce3ffb8786c2fdbde80970b7998b?s=200",
-        bio: "Palestrante é um desenvolvedor etc etc etc.",
-        company: "PyPOA",
+        name: "Volmar Oliveira Junior",
+        photo: "http://www.gravatar.com/avatar/16cd035bfdae59284a629fbdca4d864c?s=200",
+        bio: "Volmar é desenvolvedor de software na Hewlett-Packard.",
+        company: "",
         link: {
-          href: "https://plus.google.com/102385293155320837132",
-          text: "Google+"
+          href: "https://www.linkedin.com/in/volmaroliveirajr",
+          text: "linkedin.com/in/volmaroliveirajr"
         },
         presentation: {
-          title: "Fabric ??",
-          description: "Uma palestra sobre Fabric.",
+          title: "Introdução a Automação com Fabric",
+          description: "Fabric é uma ferramenta que torna possível administrar e automatizar tarefas em servidores via SSH, neste tutorial será apresentada a biblioteca e alguns exemplos de utilização.",
           time: "16h20"
         }
       },
