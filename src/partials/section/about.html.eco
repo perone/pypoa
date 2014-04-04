@@ -1,6 +1,0 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">A primeira edição do PyPOA objetiva reunir a comunidade Python de Porto Alegre e região e promover a troca de conhecimentos através de uma programação de palestras técnicas para desenvolvedores e interessados na linguagem Python. Participe!</p>
-
-<p><strong>A participação no evento é gratuita e as vagas são limitadas. Além disso, os participantes são incentivados a trazer 2kg de alimentos não perecíveis que serão encaminhandos para uma entidade beneficiente.</strong></p>
-
-<p>A bela imagem que ilustra o site do evento é de autoria de <a href="http://www.flickr.com/photos/manhattan104">Anderson Vaz</a>.</p>
