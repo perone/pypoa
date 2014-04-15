@@ -227,6 +227,11 @@ module.exports = {
         logo: "themes/pypoa/img/logo_ftec.jpg",
         url: "http://www.ftec.com.br/"
       },
+      {
+        name: "Azion Technologies",
+        logo: "themes/pypoa/img/azion_logo.png",
+        url: "http://www.azion.com.br/"
+      },
     ],
 
     // List of Partners
