@@ -20,10 +20,10 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    //callToAction: {
-    //    text: "Registre-se agora!",
-    //    link: "http://eventick.com.br"
-    //},
+    callToAction: {
+        text: "Inscrições !",
+        link: "http://pypoa.eventbrite.com"
+    },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     //forkButton: {
@@ -47,7 +47,7 @@ module.exports = {
       'schedule',
       'sponsors',
       //'partners',
-      //'contact'
+      'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -58,7 +58,7 @@ module.exports = {
       schedule: "Programação",
       sponsors: "Patrocinadores",
       //partners: "Parceiros",
-      //contact: "Contato"
+      contact: "Contato"
     },
 
     // The entire schedule
