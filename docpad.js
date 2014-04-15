@@ -89,7 +89,7 @@ module.exports = {
       { 
         name: "Leonardo Korndorfer",
         photo: "http://www.gravatar.com/avatar/6c3887b22478ea33fffa3bad4e8b1625?s=200",
-        bio: "",
+        bio: "Programador profissional, fotógrafo amador e jogador de sinuca ocasional.",
         company: "",
         link: {
           href: "https://leok.me",
@@ -97,7 +97,7 @@ module.exports = {
         },
         presentation: {
           title: "Python + Celery",
-          description: "Em breve.",
+          description: "Celery é um framework para troca de mensagens e execução de código em segundo plano. Essa apresentação fala um pouco sobre celery e suas features.",
           time: "10h50"
         }
       },
