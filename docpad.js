@@ -232,6 +232,11 @@ module.exports = {
         logo: "themes/pypoa/img/azion_logo.png",
         url: "http://www.azion.com.br/"
       },
+      {
+        name: "Think Digital",
+        logo: "themes/pypoa/img/think_logo.png",
+        url: "http://www.thinkinovacao.com.br/"
+      },
     ],
 
     // List of Partners
