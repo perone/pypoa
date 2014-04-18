@@ -47,7 +47,8 @@ module.exports = {
       'schedule',
       'sponsors',
       //'partners',
-      'contact'
+      'contact',
+      'faq'
     ],
 
     // Labels which you can translate to other languages
@@ -58,7 +59,8 @@ module.exports = {
       schedule: "Programação",
       sponsors: "Patrocinadores",
       //partners: "Parceiros",
-      contact: "Contato"
+      contact: "Contato",
+      faq: "FAQ"
     },
 
     // The entire schedule
@@ -236,6 +238,11 @@ module.exports = {
         name: "Think Digital",
         logo: "themes/pypoa/img/think_logo.png",
         url: "http://www.thinkinovacao.com.br/"
+      },
+      {
+        name: "Codefreelas",
+        logo: "themes/pypoa/img/codefreelas.png",
+        url: "http://www.codefreelas.com/"
       },
     ],
 
