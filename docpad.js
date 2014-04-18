@@ -242,7 +242,7 @@ module.exports = {
       {
         name: "Codefreelas",
         logo: "themes/pypoa/img/codefreelas.png",
-        url: "http://www.codefreelas.com/"
+        url: "http://codefreelas.com/"
       },
     ],
 
