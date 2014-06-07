@@ -9,10 +9,10 @@ module.exports = {
     conf: {
       name: "PyPOA",
       description: "1o Python Porto Alegre",
-      date: "7 de Junho",
+      date: "7 de Junho de 2014",
       // If your event is free, just comment this line
       // price: "R$ 10",
-      venue: "FTEC",
+      venue: "FTEC Zona Norte",
       address: "Av. Assis Brasil, 7765",
       city: "Porto Alegre",
       state: "Rio Grande do Sul"
@@ -21,7 +21,7 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Inscrições !",
+        text: "Inscrições Encerradas !",
         link: "http://pypoa.eventbrite.com"
     },
 
@@ -104,25 +104,6 @@ module.exports = {
         }
       },
       {
-        name: "Matheus Carvalho",
-        photo: "http://www.gravatar.com/avatar/c33a2a82b450a855b19da3200b4a5ad8?s=200",
-        bio: "TSPI - Tecnologia em Sistemas para Internet. Certificações Linux",
-        company: "Área 31 - Hackerspace",
-        link: {
-          href: "https://www.facebook.com/go.matheus",
-          text: "Facebook"
-        },
-        presentation: {
-          title: "Engenharia Social e Técnicas de Invasão com S.E.T",
-          description: "Engenharia Social - Conceito e Como Usa-la na Prática, Técnicas de Invasão e Roubos de Credencial com o uso da Ferramenta S.E.T, Como se proteger.",
-          time: "11h40"
-        }
-      },
-      {
-        name: "Almoço",
-        time: "12h00"
-      },
-      {
         name: "Leandro Nunes",
         photo: "http://www.gravatar.com/avatar/9b5f5241e0d3348ef223bcc91f681d5e?s=200",
         bio: "Leandro é desenvolvedor de software e palestrante em eventos de software livre.",
@@ -134,8 +115,12 @@ module.exports = {
         presentation: {
           title: "Web stack com Nginx + Chaussette + Circus + Flask",
           description: "Essa palestra apresenta a configuração de um stack completo para deploy de aplicações WSGI usando Nginx, Chaussette e Circus.",
-          time: "14h00"
+          time: "11h40"
         }
+      },
+      {
+        name: "Almoço",
+        time: "12h00"
       },
       {
         name: "Christian S. Perone",
@@ -149,7 +134,7 @@ module.exports = {
         presentation: {
           title: "Machine Learning com Python",
           description: "Palestra de introdução à Machine Learning usando Python e Scikit-Learn (sklearn).",
-          time: "14h20"
+          time: "14h00"
         }
       },
       {
@@ -164,26 +149,26 @@ module.exports = {
         presentation: {
           title: "Transformando ideias em realidade com web2py",
           description: "Um dos maiores obstáculos para empreendedores não técnicos é transformar a sua ideia em um MVP de qualidade, em pouco tempo e com baixo investimento. Mas esse obstáculo pode ser vencido facilmente com o framework python para desenvolvimento web, o Web2py, que possibilita uma rápida prototipação, e a implementação de ferramentas funcionais seguras e escaláveis com uma curva de desenvolvimento muito pequena.  ",
-          time: "14h50"
+          time: "14h30"
         }
       },
       {
         name: "Coffee Break",
-        time: "15h40"
+        time: "15h10"
       },
       {
-        name: "Sérgio H. Berlotto Jr",
-        photo: "http://www.gravatar.com/avatar/208e4a03a5e5ac5dda83c6b685d399f5?s=200",
-        bio: "Usuário e incentivador Linux, programador desde 1999, atualmente desenvolve com Python e Wordpress no site do gabinetedigital.rs.gov.br do governo do estado.",
-        company: "Gabinete Digital",
-        link: {
-          href: "http://github.com/berlotto",
-          text: "github.com/berlotto"
-        },
+        name: "Guilherme Schvarcz Franco",
+        photo: "http://www.gravatar.com/avatar/e8a33db5e125c0e4dbb2a7f5ce12cd08?s=200",
+        bio: "Mestre Jedi das artes robóticas em treinamento, guiado pela luz, força e sabedoria antiga da UFRGS.",
+        //company: "",
+        //link: {
+        //  href: "http://github.com/berlotto",
+        //  text: "github.com/berlotto"
+        //},
         presentation: {
-          title: "Deploy de aplicação Python no OpenShift",
-          description: "Aprender como utilizar e como fazer deploy de uma aplicação em Python no ambiente open-source OpenShift, criado pela Red Hat. Saiba como criar sua aplicação, como utilizar o git com ela, como guardar as versões do seu deploy, e algumas outras funções.",
-          time: "16h00"
+          title: "Dando vida a robôs com Python !",
+          description: "Um apanhado geral das técnicas muito utilizadas na robótica móvel e como python vem me ajudando/salvando no percursso por esse mundo ainda em exploração pela minha pessoa.",
+          time: "16h30"
         }
       },
       {
@@ -198,7 +183,7 @@ module.exports = {
         presentation: {
           title: "Introdução a Automação com Fabric",
           description: "Fabric é uma ferramenta que torna possível administrar e automatizar tarefas em servidores via SSH, neste tutorial será apresentada a biblioteca e alguns exemplos de utilização.",
-          time: "16h20"
+          time: "17h00"
         }
       },
       {
@@ -213,12 +198,12 @@ module.exports = {
         presentation: {
           title: "South, o básico para manter uma \"vida saudável\"",
           description: "Uma breve apresentação sobre a biblioteca South, como utiliza-la em projetos django para manter a evolução constantes dos seus models (apps) de uma forma simples e assim manter uma \"vida saudável\"",
-          time: "16h50"
+          time: "17h30"
         }
       },
       {
         name: "Encerramento",
-        time: "17h30"
+        time: "18h20"
       },
     ],
 
